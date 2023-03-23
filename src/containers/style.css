@@ -1,0 +1,109 @@
+.RichTextEditor__root___2QXK- {
+  width: 100%;
+  height: 78vh;
+}
+
+.chatArea {
+  height: 70vh !important;
+  background-color: whitesmoke;
+  margin-bottom: 5vh;
+  overflow-y: hidden;
+  overflow-x: hidden;
+  transition: all 0.5s ease-in-out;
+}
+.chatArea:hover {
+  overflow-y: scroll;
+}
+
+.chatMessage {
+  background: #f0fff7;
+}
+
+.chatMessage2 {
+  background: #f0f8ff;
+}
+
+.chatArea::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  background-color: #f5f5f5;
+}
+
+.chatArea::-webkit-scrollbar {
+  width: 12px;
+  background-color: #f5f5f5;
+}
+
+.chatArea::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  background-color: #555;
+}
+
+.commentSection {
+  width: 45%;
+  margin-top: 4vh;
+  max-height: 35vh;
+  background-color: #f5f5f5;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  border-left: 1px solid #555;
+  border-right: 1px solid #555;
+}
+
+.comment {
+  border: 1px solid #555;
+}
+
+label {
+  margin-top: 1rem;
+  margin-bottom: 0 !important;
+}
+
+.rdw-editor-wrapper {
+  height: 500px;
+  background-color: #f5f5f5;
+}
+
+.special-label {
+  display: none !important;
+}
+
+.react-tel-input input {
+  width: 100% !important;
+}
+
+.ant-upload-list.ant-upload-list-text {
+  display: none !important;
+}
+
+#upload-image-label {
+  padding: 10px;
+  background: green;
+  display: table;
+  color: #fff;
+}
+
+.RichTextEditor__editor___1QqIU {
+  height: 400px !important;
+}
+
+.RichTextEditor__root___2QXK- div:nth-child(2) {
+  height: 100%;
+}
+
+.public-DraftStyleDefault-ltr {
+  margin: 0 !important;
+}
+
+.RichTextEditor__root___2QXK- {
+  height: auto;
+}
+
+.editorClassName.rdw-editor-main {
+  height: calc(100% - 70px);
+}
+
+.DraftEditor-root {
+  height: calc(100% - 19px);
+}
